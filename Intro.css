@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: whitesmoke;
+}
+
+#apply{
+    width :100%;
+    height : 6vh;
+    background-color: rgb(255,69,0,0.8);
+    display: flex;
+    color : white;
+    justify-content: center;
+    align-items: center;
+    /* text-indent: 4px; */
+    word-spacing:3px ;
+}
+
+#apply button {
+    border-radius : 50px;
+    width: 52px;
+    height : 3.5vh;
+    background-color: black;
+    color:white;
+    border : rgb(0,0,0,0.7);
+    margin-left : 20px;
+}
+
+#apply  .fa-indian-rupee-sign{
+    margin-right : 5px;
+}
+
+#apply .fa-xmark{
+    color : white;
+    position: absolute;
+    right : 40px;
+    /* font-weight: light; */
+    /* align-self: flex-end; */
+}
+
+#header{
+    width :100%;
+    height : 8vh;
+    /* border : 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+#header img{
+    width : 50px;
+    height : 6vh;
+    border-radius: 100%;
+    margin-left : 30px;
+
+}
+#header p{
+    font-weight: bold;
+    color : rgb(48, 46, 46);
+    margin-left : 12px;
+}
+
+#header ul{
+   
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width : 45%;
+   color:rgb(85, 84, 84);
+   margin-left : 175px;
+}
+
+
+/* #header ul li:after{
+  position: relative;
+ 
+  content: '';
+ 
+  width: 20px;
+  border-bottom: solid 3px rgb(255,69,0,0.7);
+  border-radius: 2px;
+  
+  
+
+  
+}
+#header ul li:hover:after{
+    opacity: 1; 
+    color:rgb(255,69,0,0.7);
+} */
+#header #login{
+    width : 90px;
+    height : 6vh; 
+    position: absolute;
+   right: 180px;
+   background-color: white;
+   border:white;
+   font-weight: bold;
+   font-size: 15px;
+}
+#header #Register{
+    width : 90px;
+    height : 6vh;
+    background-color: black;
+    color:white;
+    border:black;
+    border-radius:50px ;
+    position: absolute;
+   right: 90px;
+   font-weight: bold;
+   
+}
+#header #call{
+    width : 50px;
+    height : 6vh;
+    border-radius:100%;
+    background-color: rgb(255,69,0,0.8);
+   text-align: center;
+   padding-top : 12px;
+   position: absolute;
+   right: 30px;
+   
+}
+#header #call i {
+    color:white;
+    font-size: 20px;
+}
+
+#gadmission{
+    width:100%;
+    height : 40vh;
+    border-top:2px solid white;
+    background: url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(100%);
+    color:white;
+}
+
+#gadmission h4{
+ text-align: center;
+ font-weight: bold;
+ font-size:35px;
+ margin-top : 30px;
+}
+
+#gadmission #outer{
+    width :300px;
+    height : 55px;
+    display:flex;
+    margin:auto;
+    border-radius: 8px;
+    position: relative;
+    top : 40px;
+    z-index:1;
+
+}
+
+#gadmission #outer #examscores{
+    width : 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gadmission #outer #examscores p{
+    margin-left : 10px;
+    font-size: 12px;
+    color:rgb(186, 182, 182);
+}
+
+#gadmission #outer #examscores i{
+    color:rgb(186, 182, 182);
+    
+}
+#gadmission #outer #keywords{
+    width : 50%;
+    background-color:  rgb(246, 106, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gadmission #outer #keywords p{
+    margin-left : 10px;
+    font-size: 12px;
+}
+
+#gadmission #searches{
+    width : 55%;
+    height : 40vh;
+    margin: auto;
+    border-radius:12px;
+    position: relative;
+    top : 10px;
+    
+    
+  
+
+
+}
+
+#gadmission #searches #shere{
+  
+  width : 100%;
+  height : 18vh;
+  
+  border-top-radius:12px;
+  background-color: rgba(106, 106, 107, 0.6);
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(8px);
+}
+
+#gadmission #searches #shere #icon{
+    position: absolute;
+    top : 56px;
+    left : 50px;
+    background-color : rgb(255,69,0,0.1);
+    border-radius: 100%;
+    width : 45px;
+    height : 45px;
+    z-index: 2;
+}
+#gadmission #searches #shere  i {
+    color:rgb(255,69,0,0.8);
+    /* position: absolute; */
+    /* top : 65px;
+    left : 50px; */
+    display:flex;
+    margin-top : 12px;
+    justify-content:center;
+    font-size : 20px;
+    
+
+}
+#gadmission #searches #shere  input{
+    display: block;
+    font-weight: bold;
+  color: #000000;
+  position: relative;
+  top : 50px;
+  width : 90%;
+  height:8vh;
+  border-radius: 50px;
+  border : white;
+  margin:auto;
+  padding-left : 70px;
+  background-color: white; 
+  
+  
+}
+#gadmission #searches #shere input::placeholder{
+    color:rgb(215, 211, 211);
+    font-weight: lighter;
+    font-size: 12px;
+    word-spacing: 1px;
+    z-index: 2;
+
+}
+
+#gadmission #searches #soption{
+    height : 22vh;
+    background-color: white;
+    color:rgb(0,0,0,0.8);
+    border-bottom-radius:12px;
+    
+   
+    
+}
+#gadmission #searches #soption #psearch{
+    position: relative;
+    top:25px;
+    text-align: center;
+    font-weight: lighter;
+}
+#gadmission #searches #soption #psearopt{
+    display: flex;
+    width : 80vh;
+    position: relative;
+    top:30px;
+    justify-content: space-between;
+    align-items:center;
+    height : 50px;
+    margin : auto;
+}
+
+#gadmission #searches #soption #psearopt p{
+   
+    background-color: rgb(246, 106, 56,0.1);
+    font-size : 10px;
+    color:rgb(246, 106, 56);
+    border-radius: 50px;
+    height : 25px;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top : 4px;
+    text-align: center;
+   
+
+}
+#gadmission #searches #soption button{
+    position: relative;
+    top:63px;
+    left:300px;
+    width : 150px;
+    height:6vh;
+    border-radius: 50px;
+    background-color: rgb(255,69,0);;
+    border:rgb(255,69,0); 
+    color:white;
+    font-size:14px;
+    font-weight:bolder;
+}
+
+#letstart{
+display : flex;
+color:black;
+ width :100%;
+ height : 15vh;
+ margin-top : 110px;
+ background-color: rgb(246, 106, 56,0.05);
+ align-items: flex-end;
+ 
+
+} 
+
+#letstart div{
+    display: flex;
+    margin-left:50px;
+}
+#letstart div p{
+    margin-left : 18px;
+    margin-top : 15px;
+    color:grey;
+    font-size: 15px;
+    font-weight: light;
+
+}
+
+#letstart .div{
+    width :50px;
+    height:50px;
+border-radius: 100%;
+margin-bottom : 8px;
+display:flex;
+align-items:center;
+justify-content:space-around;
+}
+#letstart div i{
+   color:white;
+   font-size:25px;
+}
+#letstart  #country{
+    background-color: green;
+}
+
+#letstart #building{
+    background-color: rgb(36, 36, 36);
+}
+
+#letstart #graduation{
+    background-color: rgb(8, 181, 250);
+}
+
+#letstart #user{
+    background-color: rgb(38, 1, 72);
+    
+}
+#letstart button{
+    width : 150px;
+    height : 6vh;
+    margin-bottom : 8px;
+    margin-left: 35px;
+    border-radius: 50px;
+    background-color: cornsilk;
+    border:1px solid black;
+    font-size:15px;
+
+}
+
+#letstart button i{
+    margin-left : 8px;
+    font-size: 16px;
+
+}
+
+
+
+
